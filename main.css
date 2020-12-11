@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+#first{
+  background-color: purple;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+#first2 {
+  background-color: blue;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+#second {
+  background-color: pink;
+  height: 100vh;
+  width: 100%;
+
+}
+
+.skill_wrap {
+  width:50%;
+  padding-top: 100px;
+  margin: auto;
+}
+
+.skill_title {
+  padding: 30px 0;
+}
+
+.skill_box {
+  position: relative;
+  padding: 30px 0;
+}
+
+
+.gauge{
+  width: 450px;
+  height: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.gauge_box{
+  background: #e5e5e5;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.bar{
+  position:absolute;
+
+  top:0;
+  left:0;
+  bottom:0;
+  background: linear-gradient(to right, #112F7C, #4D107C);
+}
+
+.percent{
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 15px;
+  background: -webkit-linear-gradient(#112F7C, #4D107C);
+  color: transparent; -webkit-background-clip: text;
+}
